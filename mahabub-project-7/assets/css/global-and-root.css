@@ -1,0 +1,152 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+ *,
+ ::after,
+ ::before {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ html {
+     behavior: smooth;
+     /* overflow: hidden; */
+ }
+
+ body {
+    font-family: 'Poppins', sans-serif;
+     font-weight: 400;
+     background-color: rgba(239, 255, 250, 0.525);
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ ul,
+ li {
+     list-style: none;
+ }
+
+
+ /* nav a and p  tag */
+ .global-mm-nav a {
+     font-size: 16px;
+     font-weight: 400;
+ }
+
+ .global-mm-nav p {
+     font-size: 14px;
+ }
+
+ /* global hero sectiooon title  */
+ .global-hero-mm-title {
+     font-size: 70px;
+     font-weight: bold;
+     color: #E1417E;
+ }
+
+ /* pink color box shadow   */
+ .global-bdr-bgblur-mm {
+     border-radius: 10px;
+     box-shadow: 0 0 3px 0 #E1417E;
+     backdrop-filter: blur(3px) grayscale(80%);
+     padding: 15px 10px;
+     /* display: inline-block; */
+ }
+
+ .global-btn-mm {
+     display: inline-block;
+     margin: 0 5px;
+ }
+
+ .global-btn-mm a {
+     display: inline-block;
+     padding: 10px 60px;
+     font-size: 20px;
+     color: #fff;
+     background-image: linear-gradient(90deg, #E1417E, #FA7751);
+     border-radius: 100px;
+ }
+
+ /* background gradiend color  */
+
+ .global-bg-gradient {
+     /* color: #fff; */
+     background-image: linear-gradient(90deg, #E1417E, #FA7751);
+
+ }
+
+ /* left side column border  */
+ .mm-sec-bdr {
+
+     /* padding-top: 1px; */
+     /* padding-bottom: 1px; */
+     padding-left: 30px;
+     border-left: 4px solid #E1417E;
+ }
+
+
+ /* background blur  */
+ .global-mm-bg-blur {
+     backdrop-filter: blur(2px);
+     background-color: rgba(0, 0, 0, 0.25);
+ }
+
+
+ /* left site 1px border  */
+ .right-mm-bdr-1px {
+     border-right: 1px solid #000;
+     padding-right: 5px;
+     margin-right: 5px;
+ }
+
+
+
+ .bdr-mm-radius-rtl-icon {
+     display: inline-block;
+     padding: 7px;
+     width: 30px;
+     height: 30px;
+     font-size: 15px;
+     text-align: center;
+     border-radius: 100%;
+     border: 1px solid #fff;
+ }
+
+ /* love icon  */
+ .global-mm-love-icon {
+     /* display: inline-block; */
+     color: #E1417E;
+     position: relative;
+     z-index: 1;
+ }
+
+ .global-mm-love-icon i {
+     position: absolute;
+     margin-top: -40px;
+
+ }
+
+
+ .global-mm-love-icon i::after {
+     content: "";
+     position: absolute;
+     color: #E1417E;
+     width: 15px;
+     height: 15px;
+     border-radius: 100px;
+     border: 2px solid #E1417E;
+     z-index: 1;
+     /* top: 0px; */
+     left: 50%;
+     transform: translate(-50%);
+     bottom: -20px;
+ }
+
+ /* //////////////////////////////////////////////////////////////////////////////////////////////
+                                  container size 1200px 
+////////////////////////////////////////////////////////////////////////////////////////////// */
+ .container {
+     max-width: 1200px !important;
+ }

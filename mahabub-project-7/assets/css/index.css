@@ -1,0 +1,263 @@
+ /*============================================================== 
+                   section-111111-mm
+============================================================== */
+ .section-mm-1 h1 {
+     color: #E1417E;
+     font-size: 45px;
+ }
+
+ .tiltl-icon {
+     padding: 2px 5px;
+     background-color: #e1417e1f;
+     /* display: flex; */
+     display: inline-block;
+     border-radius: 100px;
+ }
+
+ .tiltl-icon .global-mm-love-icon {
+     position: relative;
+     margin: 0;
+ }
+
+ .tiltl-icon .global-mm-love-icon i {
+     transform: scale(.5);
+     position: relative;
+     display: inline-block;
+     margin: 0;
+     padding: 0;
+ }
+
+ .section-mm-1 h2 {
+     font-size: 36px;
+     line-height: 50px;
+     font-weight: bold;
+ }
+
+ .section-mm-1 h2 span {
+     position: relative;
+     z-index: 1;
+     /* border-bottom: 2px solid #E1417E; */
+ }
+
+ .section-mm-1 h2 span::before {
+     content: "";
+     position: absolute;
+     left: 2px;
+     width: 125%;
+     bottom: -5px;
+     border-bottom: 2px solid #E1417E;
+     z-index: 1;
+ }
+
+ .section-mm-1-r-img {
+     display: inline-block;
+     max-width: 450px;
+     /* object-fit: cover; */
+ }
+
+
+
+
+ /*============================================================== 
+                   section-222222-mm
+============================================================== */
+
+ .section-mm-2 {
+     background-image: url("../image/hero.jpg");
+     background-position: center center;
+     background-size: cover;
+     padding-top: 90px;
+     padding-bottom: 90px;
+     /* padding: ; */
+     position: relative;
+     z-index: 1;
+ }
+
+ .section-mm-2 .global-bdr-bgblur-mm {
+     padding: 30px 40px;
+     backdrop-filter: blur(50px) grayscale(0%);
+ }
+
+ .section-mm-2 h1 {
+     color: #E1417E;
+     font-size: 45px;
+ }
+
+ .section-mm-2 p {
+     font-size: 20px;
+ }
+
+ /*============================================================== 
+                   section-3333333-mm
+============================================================== */
+
+
+ .section-mm-3 h1 {
+     color: #E1417E;
+     font-size: 42px;
+
+ }
+
+ .section-mm-3 h2 {
+     /* color: #E1417E; */
+     font-size: 36px;
+     font-weight: bold;
+     line-height: 50px;
+ }
+
+
+
+
+ .section-mm-3 h2 span {
+     position: relative;
+ }
+
+ .section-mm-3 h2 span::before {
+     content: "";
+     position: absolute;
+     width: 130%;
+     bottom: 0px;
+     border-bottom: 2px solid #E1417E;
+
+ }
+
+
+ /*============================================================== 
+                   section-3333333333333333-mm
+============================================================== */
+
+
+ .section-mm-33 h2 {
+     font-size: 36px;
+     font-weight: bold;
+     line-height: 50px;
+ }
+
+ .section-mm-33 h2 span {
+     position: relative;
+ }
+
+ .section-mm-33 h2 span::before {
+     content: "";
+     position: absolute;
+     width: 130%;
+     bottom: 0px;
+     border-bottom: 2px solid #E1417E;
+
+ }
+
+ /* ###############################################################################################
+                                            home page end
+  ############################################################################################### */
+
+
+ .ondg-part-1 {
+     background-image: url('../image/bg1.png');
+     background-position: center center;
+     background-size: cover;
+ }
+
+ .on-mm-part-1-bttm i {
+     font-size: 20px !important;
+ }
+
+ /*============================================================== 
+                   section- onbording part 2
+============================================================== */
+ .ondg-part-2 {
+     background-image: url('../image/bg4.jpg');
+     background-position: center center;
+     background-size: cover;
+ }
+
+ .on-mm-part-2-bttm input {
+     color: #fff;
+     border: none;
+     background-color: transparent;
+     border-radius: 100px;
+     padding-left: 20px;
+ }
+
+ .on-mm-part-2-bttm input:focus,
+ .on-mm-part-2-bttm input:active {
+     color: #fff;
+     border: none;
+     background-color: transparent;
+     border-radius: 100px;
+     padding-left: 20px;
+ }
+
+ /* .on-mm-part-2-bttm input[type="checkbox"] {
+ background-color: transparent;
+ background-color: rebeccapurple;
+ } */
+
+
+ /*============================================================== 
+                   section- onbording part 3
+============================================================== */
+ .ondg-part-3 {
+     background-image: url('../image/bg1.png');
+     background-position: center center;
+     background-size: cover;
+ }
+
+ /*============================================================== 
+                   section- onbording part 4
+============================================================== */
+ .ondg-part-4 {
+     background-image: url('../image/bg2.jpg');
+     background-position: center center;
+     background-size: cover;
+ }
+
+ /*============================================================== 
+                   section- onbording part 5
+============================================================== */
+ .ondg-part-5 {
+     background-image: url('../image/bg-3.jpg');
+     background-position: center center;
+     background-size: cover;
+ }
+
+ /*============================================================== 
+                   section- onbording part 6
+============================================================== */
+ .ondg-part-6 {
+     background-image: url('../image/bg1.png');
+     background-position: center center;
+     background-size: cover;
+ }
+
+ .no-mm-part-6-inpt {
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .no-mm-part-6-inpt .global-bg-gradient {
+     display: inline-block;
+     padding: 2px;
+     border-radius: 100px;
+     margin: 5px;
+ }
+
+ .no-mm-part-6-inpt input {
+     padding: 5px 25px;
+     /* box-shadow: 0 0 0 2px solid black red; */
+     background-color: rgb(57, 57, 57);
+     transition: all 0.3s ease;
+
+ }
+
+ .no-mm-part-6-inpt input:hover {
+     background-color: transparent;
+ }
+
+ /*============================================================== 
+                   section- onbording part 7
+============================================================== */
+ .ondg-part-7 {
+     background-image: url('../image/bg4.jpg');
+     background-position: center center;
+     background-size: cover;
+ }
